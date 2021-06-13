@@ -1,0 +1,14 @@
+{
+    "appTitle": {
+        "message": "{{appTitle}}",
+        "description": "The title of this chrome extension."
+    },
+    "appDescription": {
+        "message": "{{appDesc}}",
+        "description": "the description of this chrome extension."
+    },
+    "actionTitle": {
+        "message": "{{appNName}}",
+        "description": "the title of this chrome extension showed in the navigtion."
+    }
+}

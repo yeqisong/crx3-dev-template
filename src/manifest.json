@@ -1,0 +1,42 @@
+{
+    "manifest_version": 3,
+    "name": "__MSG_appTitle__",
+    "version": "1.0.0",
+    "description": "__MSG_appDescription__",
+    "host_permissions": ["<all_urls>"],
+    "background": {
+        "service_worker": "./libs/background/main.js"
+    },
+    "action": {
+        "default_title": "__MSG_actionTitle__",
+        "default_popup": "./libs/popup.html",
+        "default_icon": {
+            "16": "/assets/images/action16.png",
+            "32": "/assets/images/action32.png",
+            "48": "/assets/images/action48.png",
+            "64": "/assets/images/action64.png",
+            "128": "/assets/images/action128.png"
+        }
+    },
+    "icons": {
+        "16": "/assets/images/action16.png",
+        "32": "/assets/images/action32.png",
+        "48": "/assets/images/action48.png",
+        "64": "/assets/images/action64.png",
+        "128": "/assets/images/action128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["./libs/content/info.js"],
+            "run_at": "document_idle"
+        }
+    ],
+    "default_locale": "zh_CN",
+    "chrome_url_overrides": {
+        "newtab": "./libs/newtab.html"
+    },
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self';"
+    }
+}
