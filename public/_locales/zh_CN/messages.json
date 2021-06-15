@@ -8,7 +8,7 @@
         "description": "用来学习"
     },
     "actionTitle": {
-        "message": "{{appNName}}",
+        "message": "{{appTitle}}",
         "description": "拓展浏览器图标显示的标题"
     }
 }

@@ -32,7 +32,7 @@
             "run_at": "document_idle"
         }
     ],
-    "default_locale": "zh-CN",
+    "default_locale": "{{manifestLocale}}",
     "chrome_url_overrides": {
         "newtab": "./libs/newtab.html"
     },

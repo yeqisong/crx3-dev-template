@@ -8,7 +8,7 @@
         "description": "the description of this chrome extension."
     },
     "actionTitle": {
-        "message": "{{appNName}}",
+        "message": "{{appTitle}}",
         "description": "the title of this chrome extension showed in the navigtion."
     }
 }
