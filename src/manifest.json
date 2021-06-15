@@ -11,19 +11,19 @@
         "default_title": "__MSG_actionTitle__",
         "default_popup": "./libs/popup.html",
         "default_icon": {
-            "16": "/assets/images/action16.png",
-            "32": "/assets/images/action32.png",
-            "48": "/assets/images/action48.png",
-            "64": "/assets/images/action64.png",
-            "128": "/assets/images/action128.png"
+            "16": "/assets/images/icon16.png",
+            "32": "/assets/images/icon32.png",
+            "48": "/assets/images/icon48.png",
+            "64": "/assets/images/icon64.png",
+            "128": "/assets/images/icon128.png"
         }
     },
     "icons": {
-        "16": "/assets/images/action16.png",
-        "32": "/assets/images/action32.png",
-        "48": "/assets/images/action48.png",
-        "64": "/assets/images/action64.png",
-        "128": "/assets/images/action128.png"
+        "16": "/assets/images/icon16.png",
+        "32": "/assets/images/icon32.png",
+        "48": "/assets/images/icon48.png",
+        "64": "/assets/images/icon64.png",
+        "128": "/assets/images/icon128.png"
     },
     "content_scripts": [
         {
@@ -32,7 +32,7 @@
             "run_at": "document_idle"
         }
     ],
-    "default_locale": "zh_CN",
+    "default_locale": "zh-CN",
     "chrome_url_overrides": {
         "newtab": "./libs/newtab.html"
     },
