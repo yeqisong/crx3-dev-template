@@ -43,6 +43,7 @@ module.exports = {
         'vue/no-v-html'                              : 'off',
         'vue/no-multiple-template-root'              : 'off',
         'vue/no-v-model-argument'                    : 'off',
+        'vue/script-setup-uses-vars'                 : 'off',
         'accessor-pairs'                             : 2,
         // 禁止或强制在代码块中开括号前和闭括号后有空格
         'block-spacing'                              : [2, 'always'],
