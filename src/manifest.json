@@ -32,6 +32,7 @@
             "run_at": "document_idle"
         }
     ],
+    "options_page": "./libs/options.html",
     "default_locale": "{{manifestLocale}}",
     "chrome_url_overrides": {
         "newtab": "./libs/newtab.html"

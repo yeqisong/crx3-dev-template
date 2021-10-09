@@ -1,6 +1,6 @@
 {
     "name": "{{appTitle}}",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "{{appDesc}}",
     "scripts": {
         "build": "vite build",
@@ -23,6 +23,6 @@
         "eslint-plugin-vue": "^7.16.0",
         "prettier": "^2.3.2",
         "vite": "^2.4.4",
-        "vite-plugin-vue-crx3": "^1.0.7"
+        "vite-plugin-vue-crx3": "^1.0.8"
     }
 }
